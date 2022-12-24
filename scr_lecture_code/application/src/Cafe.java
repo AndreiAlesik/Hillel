@@ -11,4 +11,13 @@ public class Cafe {
         this.address = address;
         this.drinks = drinks;
     }
+
+    @Override
+    public String toString() {
+        return "Cafe{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", drinks=" + drinks +
+                '}';
+    }
 }
