@@ -1,13 +1,16 @@
 public class HomeWorkApp {
+    //task 1
     public static void main(String[] args) {
+
+        //task 2
         printThreeWords();
 
-
+        //task 3
         checkSumSign(1, 2);
         checkSumSign(-1, 1);
         checkSumSign(-1, -1);
 
-
+        //task 4
         printColor(-10);
         printColor(0);
 
@@ -16,23 +19,29 @@ public class HomeWorkApp {
 
         printColor(101);
 
+        //task 5
         compareNumbers(1, 2);
         compareNumbers(2, 2);
         compareNumbers(2, 1);
 
+        //task 6
         System.out.println(checkSumInterval(9, 10));
         System.out.println(checkSumInterval(1, 2));
         System.out.println(checkSumInterval(2, 20) + "\n");
 
+        //task 7
         checkPositiveOrNegative(0);
         checkPositiveOrNegative(-10);
 
+        //task 8
         isNegative(-10);
         isNegative(5);
 
+        //task 9
         printString("Hello", 3);
         System.out.println();
 
+        //task 10
         System.out.println(isLeapYear(2000));
         System.out.println(isLeapYear(2014));
     }
