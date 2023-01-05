@@ -46,6 +46,9 @@ public class Main {
         structuresList.add(new Structure("bird"));
         System.out.println(structuresList);
         findOccurrence(structuresList);
+
+        //------------------------------
+
     }
 
     public static void countOccurrence(List<String> inputList, String inputStr) {
