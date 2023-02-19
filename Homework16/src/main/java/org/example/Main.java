@@ -10,10 +10,10 @@ public class Main {
 
         lessonDao = new LessonDao();
 
-        Lesson lesson1 = new Lesson(1, "Lesson1", new Date(2020-01-05), 1);
-        Lesson lesson2 = new Lesson(2, "Lesson2", new Date(2021-01-05), 4);
-        Lesson lesson3 = new Lesson(3, "Lesson3", new Date(2022-01-05), 5);
-        Lesson lesson4 = new Lesson(4, "Lesson4", new Date(2023-01-05), 6);
+        Lesson lesson1 = new Lesson(1, "Lesson 1", new Date(2020-01-05), 1);
+        Lesson lesson2 = new Lesson(2, "Lesson 2", new Date(2021-01-05), 4);
+        Lesson lesson3 = new Lesson(3, "Lesson 3", new Date(2022-01-05), 5);
+        Lesson lesson4 = new Lesson(4, "Lesson 4", new Date(2023-01-05), 6);
 
         lessonDao.addLesson(lesson1);
         lessonDao.addLesson(lesson2);
